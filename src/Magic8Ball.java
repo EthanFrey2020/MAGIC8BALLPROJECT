@@ -6,13 +6,23 @@ public class Magic8Ball {
     public static void main(String[]args){
         //TODO DECLARE VARIABLES
             Scanner keyboard;
-            int testing;
-            String questions;
-            double birthdate,birthmonth,age,numbersOfPets;
+            String first,second,third,four,five,six,seven,eight,nine,ten;
 
 
         //TODO INITIALIZE VARIABLES MANUALLY
             keyboard = new Scanner(System.in);
+            int number;
+            String responseOne = "Absolutely";
+            String responseTwo = "You should do that";
+            String responseThree = "HOW IT DO BABY!!!";
+            String responseFour = "You can do it!";
+            String responseFive = "Stay Golden Pony Boy";
+            String responseSix = "Don't Even try";
+            String responseSeven = "That's not intelligent";
+            String responseEight = "That's a bad idea";
+            String responseNine = "You shouldn't do that";
+            String responseTen = "Negative Go Staters Buckaroo";
+
 
 
 
@@ -21,9 +31,6 @@ public class Magic8Ball {
 
 
         //TODO ASK QUESTIONS
-            System.out.println("When is your birth month? (number wise) ex. September is 9");
-                birthmonth = keyboard.nextDouble();
-            System.out.println("When is your birth date?");
 
 
         //TODO PRINT RESULTS
