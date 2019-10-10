@@ -64,12 +64,5 @@ public class Magic8Ball {
 
 
 
-
-        //TODO PRINT RESULTS
-
-
-
-
-
     }
 }
